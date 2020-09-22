@@ -45,10 +45,10 @@ Além disto é bom ter um editor para trabalhar com o código como _VSCode_
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/IgorCastromann/Pokemon_API
+$ git clone https://github.com/IgorCastromann/PokedexJS
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd Pokemon_API
+$ cd PokedexJS
 
 # Instale as dependências
 $ yarn
