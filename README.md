@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="Pokemon" src="https://www.wickedcooltoys.com/wp-content/uploads/2017/06/Homepage-Banner-Pokemon-Web.jpg" />
 
-## Available Scripts
+<h3 align="center">
+  Projeto teste para consumir API, utilizar os hooks do ReactJS e responsividade.
+</h3>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-agradecimentos">Agradecimentos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-### `yarn start`
+<blockquote align="center">been there, done that!</blockquote>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <a> </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/IgorCastromann/PokedexJS?color=2304D361">
+  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/IgorCastromann/PokedexJS?color=2304D361">
+  <img alt="Made by Igor Castro" src="https://img.shields.io/badge/made%20by-Igor Castro-%20?color=2304D361">
+  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/IgorCastromann/PokedexJS?color=2304D361">
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 💻 Projeto 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Projeto com intuito de praticar e aprimorar minhas habilidades, na qual consome uma API do [pokemon](https://pokeapi.co/) pra mostrar alguns dados em tela e uma pequena estilização com temática do pokemon através do styled components.
 
-### `yarn build`
+## 🚀 Tecnologias
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 🛰 Como rodar o projeto
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como _VSCode_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Rodando o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clone este repositório
+$ git clone https://github.com/IgorCastromann/Pokemon_API
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Pokemon_API
 
-## Learn More
+# Instale as dependências
+$ yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 🙌 Agradecimentos
 
-### Analyzing the Bundle Size
+- [Time da RocketSeat](https://rocketseat.com.br/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## :mailbox_with_mail: Get in touch!
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<a href="https://www.linkedin.com/in/igor-castro-27470672/" target="_blank" >
+  <img alt="Linkedin - Igor Castro" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+</a>&nbsp;&nbsp;&nbsp;
+<a href="mailto:castromann@live.com" target="_blank" >
+  <img alt="Email - Igor Castro" width="35rem" height="25rem" src="https://img2.gratispng.com/20180401/cwe/kisspng-outlook-com-microsoft-outlook-logo-microsoft-offic-outlook-5ac078594dd532.5951870815225631613188.jpg">
+</a> 
 
-### Advanced Configuration
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Made with the spirit of a 🐻 by Igor Castro.
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
